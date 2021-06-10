@@ -1,2 +1,2 @@
 # WebAPwh
-Web Ap show Wheater in real time
+Web Ap show current Weather in input location.
