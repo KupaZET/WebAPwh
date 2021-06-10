@@ -1,0 +1,70 @@
+.SectionFavCities {
+  text-align: center;
+  margin: 20px 20px 20px 20px;
+}
+ 
+.SectionFavCities .FAVcities {
+  display: grid;
+  grid-gap: 20px 15px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.SectionFindCity {
+  margin: 10px 20px 20px 20px;
+}
+ 
+
+@media screen and (max-width: 1170px) {
+  .SectionFavCities .FAVcities {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 975px) {
+    .Header{
+      height: 150px;
+    }
+    .Header form{
+      clear: both;
+      flex-direction: column;
+      margin: 0;
+
+    }
+     
+    .Header form input,
+    .Header form button {
+      width: 95%;
+      margin: 0;
+    }
+   
+    .Header form button {
+      margin: 20px 0 0 0;
+    }
+     
+    .Header form .smthgwrong {
+      position: static;
+      max-width: none;
+      min-height: 0;
+      margin-top: 10px;
+    }
+    .SectionFavCities .FAVcities {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .smthgwrong {
+      top: 131px;
+      left: 33px;
+    }
+  }
+   
+  @media screen and (max-width: 700px) {
+    .SectionFavCities .FAVcities {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+   
+  @media screen and (max-width: 400px) {
+    .SectionFavCities .FAVcities {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+   

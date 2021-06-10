@@ -1,0 +1,139 @@
+  * {
+    margin: 0;
+    padding         : 0;
+    box-sizing      : border-box;
+    font-weight     : normal;
+    font            : 15px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  body {
+    font: 15px;
+    background    : rgb(110, 110, 182);
+    color: black;
+  }
+
+  h1{
+    color: rgba(2, 2, 2, 0.856);
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+    text-decoration: none;
+  }
+
+  a{
+    color: orange;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: rgb(206, 136, 7);
+    text-decoration: none;
+  }
+
+  ul{
+    list-style: none;
+}
+
+.Header .cross{
+  color: orange;
+  float: left;
+  font-size: 25px;
+  margin: 4px 0 0 12px;
+  cursor: pointer;
+}
+
+.Header .cross:hover{
+  color: rgb(206, 136, 7);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  /* FORM AND BUTTON, INPUT COMBO STYLE */
+  .Header{
+    margin: 0 auto;
+    padding: 13px 0 0 10px;
+    width  : 100%;
+    background-color: rgba(2, 2, 2, 0.856);
+    color           : rgba(2, 2, 2, 0.856);
+    height: 70px;
+  }
+
+  .Site-Name, .icon{
+    float      : left;
+    color      : orange;
+    font-size  : 30px;
+    font-weight: bolder;
+  }
+
+  /* FORM AND BUTTON, INPUT COMBO STYLE */
+  input{
+    -webkit-appearance: none;
+  }
+
+  button,
+  input {
+    margin: 0;
+    letter-spacing: 2px;
+    outline   : none;
+    color     : inherit;
+  }
+
+  /* JUST INPUT STYLE */
+  .Header form {
+    margin: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 2px
+  }
+   
+  .Header form input {
+    background: white;
+    width: 50%;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 30px;
+    margin-left: 12px;
+    padding: 2px 0 2px 10px;
+  }
+   
+  .Header form input::placeholder {
+    color: currentColor; 
+  }
+
+  /* JUST BUTTON STYLE */
+  .Header form button {
+    border: none;
+    font-size     : 12px;
+    font-weight   : bold;
+    letter-spacing: 1.3px;
+    padding       : 7.3px 30px;
+    border-radius : 5px;
+    background    : rgb(96, 96, 253);
+    margin-left: 30px;
+  }
+   
+  .Header form button:hover {
+    background: rgb(14, 47, 231);
+  }
+
+  .smthgwrong {
+    clear: both;
+    position: absolute;
+    max-width: none;
+    min-height: 0;
+    top:47px;
+    left: 299px;
+    color: red;
+  }

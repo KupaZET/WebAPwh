@@ -1,0 +1,54 @@
+.star_Rating{
+    cursor: pointer;
+    color: gold;
+}
+.star_Rating:hover{
+    color: goldenrod;
+}
+
+.NonFav{
+  text-align: left;
+}
+
+  .SectionFavCities .city img{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.SectionFavCities .city {
+    position: relative;
+    padding: 40px 10%;
+    border-radius: 20px;
+    background: rgba(2, 2, 2, 0.856);
+    color: white;
+  }
+   
+  .SectionFavCities figcaption {
+    margin-top: 6px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+   
+  .SectionFavCities .city-temp {
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+   
+  .SectionFavCities .city sup {
+    font-size: 40px;
+  }
+   
+  .SectionFavCities .city-name sup 
+  {
+    font-size: 10px;
+    padding: 1.2px 5.6px;
+    border-radius: 30px;
+    color: white;
+    background: red;
+  }
+   
+  .SectionFavCities .city-icon {
+    width: 100px;
+    height: 100px;
+  }

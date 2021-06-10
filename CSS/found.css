@@ -1,0 +1,52 @@
+.SectionFindCity {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.SectionFindCity .FoundCity:empty{
+    display:none;
+}
+.SectionFindCity .FoundCity {
+    position: relative;
+    padding: 40px 10%;
+    border-radius: 20px;
+    background: rgba(2, 2, 2, 0.856);
+    color: white;
+  }
+   
+  .SectionFindCity figcaption {
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+   
+  .SectionFindCity .city-temp {
+    float: right;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+   
+  .SectionFindCity .FoundCity sup {
+    font-size: 40px;
+  }
+  .SectionFindCity .city-name span {
+    font-size: 30px;
+  }
+    .SectionFindCity .city-name i{
+        font-size: 22px;
+    }   
+  .SectionFindCity .city-name sup {
+    padding: 0.9px 10px;
+    font-size: 13px;
+    border-radius: 30px;
+    color: white;
+    background: red;
+    margin-bottom: 20px;
+  }
+
+  .SectionFindCity .city-icon {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+  }

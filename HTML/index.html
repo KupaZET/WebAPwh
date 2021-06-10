@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Aktuální počasí</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../CSS/styleMain.css">
+  <link rel="stylesheet" href="../CSS/responzive.css">
+  <link rel="stylesheet" href="../CSS/fav.css">
+  <link rel="stylesheet" href="../CSS/found.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="Header">
+      <i class="icon fa fa-sun-o"></i>
+      <h1 class="Site-Name"><a href="index.html">AKTUÁLNÍ POČASÍ</a></h1>
+      <i class="cross fa fa-crosshairs" onclick="LocationWh()"></i>
+      <form>
+        <input type="text" placeholder="Zadejte jméno města">
+        <button type="submit">Vyhledat počasí v zadaném městě</button>
+      </form>
+      <span class="smthgwrong"></span>
+  </section>
+
+    <section class="SectionFindCity">
+      <div class="FoundCity"></div>
+    </section>
+
+    <section class="SectionFavCities">
+      <h1>Počasí v oblíbených městech: <br></h1>
+      <div class="FavCitiescontainer">
+        <ul class="FAVcities"></ul>
+      </div>
+    </section>
+
+  <script src="../JS/script.js" async defer></script>
+</body>
+
+</html>
